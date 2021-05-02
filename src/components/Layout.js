@@ -75,8 +75,8 @@ const Layout = ({ children }) => {
           <Typography className={classes.date}>
             Today is the {format(new Date(), 'do MMMM Y')}
           </Typography>
-          <Typography>Mario</Typography>
-          <Avatar src='/mario-av.png' className={classes.avatar} />
+          <Typography>Newaz</Typography>
+          <Avatar src='/saif.jpg' className={classes.avatar} />
         </Toolbar>
       </AppBar>
 

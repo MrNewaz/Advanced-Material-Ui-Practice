@@ -41,7 +41,7 @@ const NoteCard = ({ note, handleDelete }) => {
           }
           action={
             <IconButton onClick={() => handleDelete(note.id)}>
-              <DeleteOutlined />
+              <DeleteOutlined color='error' />
             </IconButton>
           }
           title={note.title}
