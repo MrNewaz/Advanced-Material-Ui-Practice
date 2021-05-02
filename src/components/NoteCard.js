@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   Card,
   CardContent,
@@ -9,7 +10,6 @@ import {
 } from '@material-ui/core';
 import { blue, green, pink, yellow } from '@material-ui/core/colors';
 import { DeleteOutlined } from '@material-ui/icons';
-import React from 'react';
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
