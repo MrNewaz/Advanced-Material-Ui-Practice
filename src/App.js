@@ -1,3 +1,5 @@
+//json-server --watch data/db.json --port 8000
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Notes from './pages/Notes';
 import Create from './pages/Create';
